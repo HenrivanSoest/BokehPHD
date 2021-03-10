@@ -1,1 +1,6 @@
-
+bokeh==2.3.0
+networkx==2.5
+numpy==1.16.4
+matplotlib==3.3.4
+pandas==0.24.2
+plotly==4.1.0
