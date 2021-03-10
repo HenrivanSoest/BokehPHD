@@ -15,7 +15,7 @@ from networkx.algorithms import community
 
 pd.set_option('max_rows', 400)
 
-got_df = pd.read_csv(r'C:\Users\Henri van Soest\Documents\PhD\Writing\Year 3 Writeup\4 Framework\Framework_Timeline2.csv')
+got_df = pd.read_csv(r'D:\PythonFiles\Visualisation\Framework_Timeline2.csv')
 
 G = nx.from_pandas_edgelist(got_df, 'Source', 'Target', 'Area')
 
